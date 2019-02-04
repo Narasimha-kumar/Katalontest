@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LP Test Suite,,,2019-02-04 20:23:52,2019-02-04 20:23:59,7.096s,PASSED
+,,,,,,
+Test Cases/Get Billing plan details,,This will fetch the billing plan details for a particular ID passed by the user,2019-02-04 20:23:52,2019-02-04 20:23:58,5.390s,PASSED
+"response = sendRequest(findTestObject(""Get Billing details""))",,,2019-02-04 20:23:53,2019-02-04 20:23:57,4.389s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-02-04 20:23:58,2019-02-04 20:23:58,0.029s,PASSED
+"verifyElementPropertyValue(response, ""price"", 156.00)",,,2019-02-04 20:23:58,2019-02-04 20:23:58,0.149s,PASSED
+"verifyElementPropertyValue(response, ""paymentProviderId"", ""GBP-EE-12R-24L"")",,,2019-02-04 20:23:58,2019-02-04 20:23:58,0.055s,PASSED
+,,,,,,
+Test Cases/Get List of Billing Plans from Braintree,,This API will fetch list of billing plans from Braintree,2019-02-04 20:23:58,2019-02-04 20:23:59,1.015s,PASSED
+"response = sendRequest(findTestObject(""Get Billing Plans""))",,,2019-02-04 20:23:58,2019-02-04 20:23:59,0.207s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-02-04 20:23:59,2019-02-04 20:23:59,0.002s,PASSED
+"verifyElementsCount(response, ""id"", 18)",,,2019-02-04 20:23:59,2019-02-04 20:23:59,0.077s,PASSED

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LP Test Suite" time="7" tests="2" failures="0" errors="0">
+   <testsuite name="LP Test Suite" tests="2" failures="0" errors="0" time="7" timestamp="2019-02-04 20:23:52" hostname="narasimha.kumar - HMECL000952.happiestminds.com" id="Test Suites/LP Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\narasimha.kumar\\Katalon Studio\\LP_Local_Services\\Reports\\LP Test Suite\\20190204_202348"/>
+         <property name="logFiles" value="C:\\Users\\narasimha.kumar\\Katalon Studio\\LP_Local_Services\\Reports\\LP Test Suite\\20190204_202348\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="narasimha.kumar - HMECL000952.happiestminds.com"/>
+         <property name="hostAddress" value="10.16.70.154"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Get Billing plan details" classname="Test Cases/Get Billing plan details" status="PASSED">
+         <system-out><![CDATA[2019-02-04 20:23:52 - [TEST_CASE][PASSED] - Test Cases/Get Billing plan details: Test Cases/Get Billing plan details
+
+2019-02-04 20:23:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Get Billing details")): Send request successfully
+
+2019-02-04 20:23:57 - [MESSAGE][INFO] - HAR: C:\Users\narasimha.kumar\Katalon Studio\LP_Local_Services\Reports\LP Test Suite\20190204_202348\requests\main\0.har
+
+2019-02-04 20:23:57 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-04 20:23:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-02-04 20:23:58 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-04 20:23:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "price", 156.00): Verify element property value successfully
+
+2019-02-04 20:23:58 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-02-04 20:23:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "paymentProviderId", "GBP-EE-12R-24L"): Verify element property value successfully
+
+2019-02-04 20:23:58 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Get List of Billing Plans from Braintree" classname="Test Cases/Get List of Billing Plans from Braintree" status="PASSED">
+         <system-out><![CDATA[2019-02-04 20:23:58 - [TEST_CASE][PASSED] - Test Cases/Get List of Billing Plans from Braintree: Test Cases/Get List of Billing Plans from Braintree
+
+2019-02-04 20:23:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Get Billing Plans")): Send request successfully
+
+2019-02-04 20:23:59 - [MESSAGE][INFO] - HAR: C:\Users\narasimha.kumar\Katalon Studio\LP_Local_Services\Reports\LP Test Suite\20190204_202348\requests\main\1.har
+
+2019-02-04 20:23:59 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-04 20:23:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-02-04 20:23:59 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-04 20:23:59 - [TEST_STEP][PASSED] - verifyElementsCount(response, "id", 18): Verify element count successfully
+
+2019-02-04 20:23:59 - [MESSAGE][PASSED] - Verify element count successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-04 20:23:52 - [TEST_SUITE][PASSED] - LP Test Suite: Test Cases/Get List of Billing Plans from Braintree]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
